@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #060606;
+  border-radius: 0%;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.logo {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.nav-link {
+  display: inline-block;
+  color: white;
+  font-size: 10px;
+  margin-right: 20px;
+  margin-left: 250px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.search-box {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin-right: 5px;
+  margin-left: 250px;
+}
+
+.search-button {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #aaa;
+  background-color: yellow;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.cart {
+  float: right;
+  font-size: 18px;
+  color: white;
+}
